@@ -27,7 +27,7 @@ Okta brief: https://www.okta.com/identity-101/password-vs-passphrase/
 
 1. Download the script:
 ```bash
-wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/main/passphrase-checker.sh
+wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/passphrase-checker.sh
 ```
 
 2. Make the script executable:
