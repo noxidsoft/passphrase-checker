@@ -2,6 +2,8 @@
 
 A command-line tool that helps create and evaluate strong passphrases. It provides immediate feedback on passphrase strength and generates examples of strong passphrases based on current security best practices.
 
+Okta brief: https://www.okta.com/identity-101/password-vs-passphrase/
+
 ## Features
 
 - Evaluates passphrase strength based on multiple criteria
@@ -25,7 +27,7 @@ A command-line tool that helps create and evaluate strong passphrases. It provid
 
 1. Download the script:
 ```bash
-wget https://raw.githubusercontent.com/yourusername/passphrase-checker/main/passphrase-checker.sh
+wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/main/passphrase-checker.sh
 ```
 
 2. Make the script executable:
