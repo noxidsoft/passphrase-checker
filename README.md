@@ -17,7 +17,7 @@ A tool that helps create and evaluate strong passphrases. It provides immediate 
 The easiest way to install is using our automatic installer:
 
 ```bash
-https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/install.sh
+wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -52,7 +52,7 @@ If you prefer to install manually, follow these steps:
 
 1. Download the script:
 ```bash
-https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/passphrase-checker.sh
+wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/passphrase-checker.sh
 ```
 
 2. Make the script executable:
