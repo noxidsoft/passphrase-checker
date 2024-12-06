@@ -1,8 +1,6 @@
 # Passphrase Strength Checker
 
-A command-line tool that helps create and evaluate strong passphrases. It provides immediate feedback on passphrase strength and generates examples of strong passphrases based on current security best practices.
-
-Okta brief: https://www.okta.com/identity-101/password-vs-passphrase/
+A tool that helps create and evaluate strong passphrases. It provides immediate feedback on passphrase strength and generates examples of strong passphrases based on current security best practices.
 
 ## Features
 
@@ -12,22 +10,49 @@ Okta brief: https://www.okta.com/identity-101/password-vs-passphrase/
 - Supports both command-line and GUI interfaces
 - Color-coded output for easy reading
 - Automatic suggestions when passphrases need improvement
+- Desktop integration (application menu and desktop shortcut)
 
-## Requirements
+## Quick Installation
 
-### Command Line Interface (CLI)
+The easiest way to install is using our automatic installer:
+
+```bash
+https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/install.sh
+chmod +x install.sh
+./install.sh
+```
+
+The installer will:
+- Detect your Linux distribution
+- Install required dependencies
+- Set up the passphrase checker
+- Create desktop and application menu shortcuts
+- Add the program to your PATH
+
+After installation, you can run the program in three ways:
+1. Double-click the "Passphrase Checker" icon on your desktop
+2. Find "Passphrase Checker" in your application menu
+3. Run `passphrase-checker.sh` in your terminal
+
+## Manual Installation
+
+If you prefer to install manually, follow these steps:
+
+### Requirements
+
+#### Command Line Interface (CLI)
 - Bash shell (version 4.0 or higher)
 - Basic terminal emulator
 
-### Graphical User Interface (GUI)
+#### Graphical User Interface (GUI)
 - Zenity package (for graphical dialogs)
 - X11 or Wayland display server
 
-## Installation
+### Manual Installation Steps
 
 1. Download the script:
 ```bash
-wget https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/passphrase-checker.sh
+https://raw.githubusercontent.com/noxidsoft/passphrase-checker/refs/heads/master/passphrase-checker.sh
 ```
 
 2. Make the script executable:
@@ -119,6 +144,13 @@ If you get the error "cannot open display":
 export DISPLAY=:0
 ```
 3. Run the script again
+
+### Installation Issues
+If the automatic installer fails:
+1. Check your internet connection
+2. Try running the installer with sudo: `sudo ./install.sh`
+3. Fall back to manual installation steps
+4. Check the system logs for detailed error messages
 
 ### Permission Denied
 If you get "permission denied", make the script executable:
